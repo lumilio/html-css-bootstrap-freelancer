@@ -107,10 +107,15 @@
 	text-decoration:none;
 }
 
+#treparagrafi{
+    width: 1000px;
+}
+
 
 #footer1{
     background-color: #3a546d;
     padding: 2rem;
+    justify-content: center;
 }
 
 #footer1 .col{
@@ -129,4 +134,8 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+#specialtxt{
+    color: #1abc9c;
 }
