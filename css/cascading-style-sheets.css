@@ -93,7 +93,7 @@
 }
 
 .txt-contact{
-    width: 1000px;
+    width: 65%;
     margin-top: 30px;
 }
 
@@ -105,4 +105,13 @@
 	color:#ffffff;
 	padding:5px 11px;
 	text-decoration:none;
+}
+
+
+#footer1{
+    background-color: #3a546d;
+}
+
+.footer2{
+    background-color: #2c3e50;
 }
