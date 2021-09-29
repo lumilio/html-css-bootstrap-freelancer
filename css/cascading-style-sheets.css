@@ -43,12 +43,12 @@
 }
 
 .separatore{
-    padding-bottom: .8rem;
+    padding: 1rem;
 }
 
 #_box1_  #lilrow{
     background-color: white;
-    width: 80px;
+    width: 135px;
     margin: .5rem;
     height: 2px;
 }
@@ -61,7 +61,38 @@
 
 #_box2_  #lilrow{
     background-color: black;
-    width: 80px;
+    width: 135px;
     margin: .5rem;
     height: 2px;
+}
+
+.col img{
+    width: 300px;
+    border-radius: 8px;
+}
+
+.portfolio .row{
+    padding: 12px 0;
+}
+
+#dueparagrafi{
+    width: 1000px;
+    margin-top: 30px;
+}
+
+#download-button{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#download-button .fas{
+    padding: 0 5px;
+}
+
+.txt-contact{
+    width: 1000px;
+    margin-top: 30px;
 }
