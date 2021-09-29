@@ -10,6 +10,9 @@
     display: table;
 }
 
-p{
-    color: red;
+header p{
+    font-size: x-small;
+    display: inline;
+    padding: 0.3rem;
+    margin: 16px;
 }
