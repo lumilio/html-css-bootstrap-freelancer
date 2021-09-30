@@ -73,10 +73,16 @@
 
 /* <!-- griglia portfolio--> */
 
+.portfolio .container{
+    max-width: 1000px;
+}
+
 
 /* <!-- due colonne --> */
 
-
+#_box3_ .container{
+    max-width: 1000px;
+}
 
 #download-button{
     border: 1px solid white;
@@ -119,6 +125,9 @@
 
 }
 
+#footer1 .row{
+    max-width: 1000px;
+}
 
 #lilcircle {
     border: 1px solid white;
