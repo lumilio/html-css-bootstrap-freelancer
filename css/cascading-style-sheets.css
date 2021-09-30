@@ -116,16 +116,24 @@
 #footer1{
     background-color: #3a546d;
     padding: 3rem;
-    justify-content: center;
+
 }
 
-#footer1 .col{
-    text-align: center;
+#footer1 .row{
+    max-width: 1300px;
 }
 
-#treparagrafi{
-    width: 1000px;
+#lilcircle {
+    border: 1px solid white;
+    padding: 6px;
+    margin: .3rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
+
+
+
 
 .footer2{
     background-color: #2c3e50;
