@@ -99,20 +99,17 @@
 
 /* <!-- contact me --> */
 
-
-.txt-contact{
-    width: 65%;
-    margin-top: 30px;
-    max-width: 1300px ;
+#theform{
+    padding: 50px;
+}
+.form-control {
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
 }
 
-.myButton {
-	background-color:#1abc9c;
-	border-radius: 4px;
-	cursor:pointer;
-	color:#ffffff;
-	padding:5px 11px;
-	text-decoration:none;
+.form-group{
+    margin-bottom: 20px;
 }
 
 
