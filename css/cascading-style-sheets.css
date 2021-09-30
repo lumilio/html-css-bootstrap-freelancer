@@ -112,6 +112,14 @@
     margin-bottom: 20px;
 }
 
+.myButton {
+	background-color:#1abc9c;
+	border-radius: 4px;
+	cursor:pointer;
+	color:#ffffff;
+	padding:5px 11px;
+	text-decoration:none;
+}
 
 /* <!-- footer --> */
 
