@@ -10,16 +10,37 @@
   <script src="https://kit.fontawesome.com/bff27338f6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div id="_boxheader_" class="container-fluid d-flex justify-content-around text-white">
-            <p><b>START BOOTSTRAP</b></p>
-            <div id="_boxnav_" class="d-flex">
-                <p>PORTFOLIO</p>
-                <p>ABOUT</p>
-                <p>CONTACT</p>
-            </div>    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top|fixed-bottom|sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+
+          <button class="navbar-toggler hidden-md-up" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+              
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="#">Action 1</a>
+                  <a class="dropdown-item" href="#">Action 2</a>
+                </div>
+              </li>
+            </ul>
+            <p>cccc</p>
+            <p>cccc</p>
+            <p>cccc</p>
+            
+          </div>
         </div>
-    </header>
+    </nav>
     <main>
         <div id="_box1_" class="container-fluid d-flex">
             <img src="img/avatar.svg" alt="">
@@ -31,36 +52,47 @@
             </div>
             <p class="text-white">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
         </div>
-        <div id="_box2_" class="container-fluid d-flex">
-            <h1>PORTFOLIO</h1>
-            <div class="separatore d-flex .flex-row justify-content-around align-items-center text-black">
-                <div id="lilrow"></div>
-                <i class="fas fa-star"></i>
-                <div id="lilrow"></div>
-            </div>
-            <div class="portfolio">
-                <div class="row">
-                    <div class="col">
-                        <img src="img/cabin.png" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="img/cake.png" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="img/circus.png" alt="">
-                    </div>
+        <div class="portfolio my-5">
+            <div class="container py-5"> 
+                <div class="col-12 text-center">
+                    <h2>PORTFOLIO</h2>
+                    <i class="fas
+                        fa-star"></i>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <img src="img/game.png" alt="">
+                <div class="row align-items-center my-3">
+                    <div class="col-12 col-md-6 col-xl-4 d-flex
+                        justify-content-center my-2">
+                        <img src="./img/cabin.png" alt="" class="img-fluid
+                            rounded">
                     </div>
-                    <div class="col">
-                        <img src="img/safe.png" alt="">
+                    <div class="col-12 col-md-6 col-xl-4 d-flex
+                        justify-content-center my-2">
+                        <img src="./img/cake.png" alt="" class="img-fluid
+                            rounded">
                     </div>
-                    <div class="col">
-                        <img src="img/submarine.png" alt="">
+                    <div class="col-12 col-md-6 col-xl-4 d-flex
+                        justify-content-center my-2">
+                        <img src="./img/circus.png" alt="" class="img-fluid
+                            rounded">
                     </div>
-                </div> 
+                    <div class="col-12 col-md-6 col-xl-4 d-flex
+                        justify-content-center my-2">
+                        <img src="./img/game.png" alt="" class="img-fluid
+                            rounded">
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 d-flex
+                        justify-content-center my-2">
+                        <img src="./img/safe.png" alt="" class="img-fluid
+                            rounded">
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 d-flex
+                        justify-content-center my-2">
+                        <img src="./img/submarine.png" alt=""
+                            class="img-fluid
+                            rounded">
+                    </div>
+
+                </div>
             </div>
         </div>
         <div id="_box1_" class="container-fluid d-flex">
