@@ -33,6 +33,12 @@
     padding: 40px 0;
 }
 
+#_box2_ , #_box4_{
+    padding: 80px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 /* <!-- header --> */
 
@@ -68,14 +74,6 @@
 /* <!-- griglia portfolio--> */
 
 
-
-#_box2_{
-    padding: 80px 0;
-    flex-direction: column;
-    align-items: center;
-}
-
-
 /* <!-- due colonne --> */
 
 
@@ -92,9 +90,14 @@
     padding: 0 5px;
 }
 
+
+/* <!-- contact me --> */
+
+
 .txt-contact{
     width: 65%;
     margin-top: 30px;
+    max-width: 1300px ;
 }
 
 .myButton {
@@ -106,9 +109,9 @@
 	text-decoration:none;
 }
 
-#treparagrafi{
-    width: 1000px;
-}
+
+/* <!-- footer --> */
+
 
 #footer1{
     background-color: #3a546d;
@@ -118,6 +121,10 @@
 
 #footer1 .col{
     text-align: center;
+}
+
+#treparagrafi{
+    width: 1000px;
 }
 
 .footer2{
